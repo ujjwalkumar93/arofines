@@ -230,8 +230,8 @@ def get_invoice_value_details(invoice):
 	invoice_value_details = frappe._dict(dict())
 
 	if invoice.apply_discount_on == 'Net Total' and invoice.discount_amount:
-		invoice_value_details.base_total = abs(invoice.base_total)
-		invoice_value_details.invoice_discount_amt = abs(invoice.base_discount_amount)
+		invoice_value_details.base_total = abs(invoice.net_total)
+		invoice_value_details.invoice_discount_amt = 0
 	else:
 		invoice_value_details.base_total = abs(invoice.base_net_total)
 		# since tax already considers discount amount

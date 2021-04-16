@@ -153,6 +153,7 @@
    "label": "With Operations"
   },
   {
+   "allow_on_submit": 1,
    "default": "0",
    "fieldname": "inspection_required",
    "fieldtype": "Check",
@@ -517,7 +518,7 @@
  "image_field": "image",
  "is_submittable": 1,
  "links": [],
- "modified": "2020-05-21 12:29:32.634952",
+ "modified": "2021-04-09 16:50:53.504360",
  "modified_by": "Administrator",
  "module": "Manufacturing",
  "name": "BOM",

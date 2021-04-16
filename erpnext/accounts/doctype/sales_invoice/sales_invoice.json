@@ -1054,14 +1054,14 @@
    "print_hide": 1
   },
   {
+   "fetch_from": "discount_amount",
    "fieldname": "base_discount_amount",
    "fieldtype": "Currency",
    "hide_days": 1,
    "hide_seconds": 1,
    "label": "Additional Discount Amount (Company Currency)",
    "options": "Company:company:default_currency",
-   "print_hide": 1,
-   "read_only": 1
+   "print_hide": 1
   },
   {
    "fieldname": "column_break_51",
@@ -1957,7 +1957,7 @@
    "link_fieldname": "consolidated_invoice"
   }
  ],
- "modified": "2021-03-31 15:42:26.261540",
+ "modified": "2021-04-10 14:25:53.962504",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Sales Invoice",

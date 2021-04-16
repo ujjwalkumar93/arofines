@@ -896,7 +896,7 @@ erpnext.stock.StockEntry = erpnext.stock.StockController.extend({
 	},
 
 	fg_completed_qty: function() {
-		this.get_items();
+		//this.get_items();
 	},
 
 	get_items: function() {
